@@ -8,19 +8,20 @@
 
 Those are ported and partially changed `yiisoft/yii2-bootstrap` widgets for use with Bootstrap 4.
 
-|yiisoft/yii2-bootstrap|digitv/yii2bootstrap4|
-|----------------------|---------------------|
-|yii\widgets\Breadcrumbs|digitv\yii2bootstrap4\widgets\Breadcrumbs|
+|yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
+|-------------------------------|-----------------------------------|
+|`yiisoft\yii2-bootstrap`\Html  |`digitv\yii2bootstrap4`\Html       |
+|yii\widgets\Breadcrumbs        |`...`\widgets\Breadcrumbs          |
 |[* new card widget](http://getbootstrap.com/docs/4.0/components/card/)|`...`\widgets\Card|
-|yiisoft\yii2-bootstrap\Alert|`...`\widgets\Alert|
-|`...`\Button|`...`\widgets\Button|
-|`...`\ButtonDropdown|`...`\widgets\ButtonDropdown|
-|`...`\Carousel|`...`\widgets\Carousel|
-|`...`\Collapse|`...`\widgets\Collapse|
-|`...`\Dropdown|`...`\widgets\Dropdown|
-|`...`\Modal|`...`\widgets\Modal|
-|`...`\Nav|`...`\widgets\Nav|
-|`...`\Navbar|`...`\widgets\Navbar|
-|`...`\Progress|`...`\widgets\Progress|
-|`...`\Tabs|`...`\widgets\Tabs|
-|`...`\ToggleButtonGroup|`...`\widgets\ToggleButtonGroup|
+|`...`\Alert                    |`...`\widgets\Alert                |
+|`...`\Button                   |`...`\widgets\Button               |
+|`...`\ButtonDropdown           |`...`\widgets\ButtonDropdown       |
+|`...`\Carousel                 |`...`\widgets\Carousel             |
+|`...`\Collapse                 |`...`\widgets\Collapse             |
+|`...`\Dropdown                 |`...`\widgets\Dropdown             |
+|`...`\Modal                    |`...`\widgets\Modal                |
+|`...`\Nav                      |`...`\widgets\Nav                  |
+|`...`\Navbar                   |`...`\widgets\Navbar               |
+|`...`\Progress                 |`...`\widgets\Progress             |
+|`...`\Tabs                     |`...`\widgets\Tabs                 |
+|`...`\ToggleButtonGroup        |`...`\widgets\ToggleButtonGroup    |
