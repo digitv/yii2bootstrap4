@@ -13,6 +13,8 @@ Used `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 |yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
 |-------------------------------|-----------------------------------|
 |`yiisoft\yii2-bootstrap`\Html  |`digitv\yii2bootstrap4`\Html       |
+|`...`\ActiveForm               |`...`\ActiveForm                   |
+|`...`\ActiveField              |`...`\ActiveField                  |
 |yii\widgets\Breadcrumbs        |`...`\widgets\Breadcrumbs          |
 |[* new card widget](http://getbootstrap.com/docs/4.0/components/card/)|`...`\widgets\Card|
 |`...`\Alert                    |`...`\widgets\Alert                |
