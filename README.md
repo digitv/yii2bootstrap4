@@ -6,7 +6,9 @@
 </p>
 
 
-Those are ported and partially changed `yiisoft/yii2-bootstrap` widgets to use with Bootstrap 4.
+Those are ported and partially changed `yiisoft/yii2-bootstrap` widgets to use with Bootstrap v4.
+
+Used `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 
 |yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
 |-------------------------------|-----------------------------------|
