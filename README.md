@@ -12,7 +12,7 @@ It is using `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 
 Use it similarly to `yiisoft/yii2-bootstrap` package.
 
-|yiisoft/yii2-bootstrap         |digitv/bootstrap                   |
+|yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
 |-------------------------------|-----------------------------------|
 |`yii\bootstrap`\Html           |`digitv\bootstrap`\Html       |
 |`...`\ActiveForm               |`...`\ActiveForm                   |
@@ -31,3 +31,56 @@ Use it similarly to `yiisoft/yii2-bootstrap` package.
 |`...`\Progress                 |`...`\widgets\Progress             |
 |`...`\Tabs                     |`...`\widgets\Tabs                 |
 |`...`\ToggleButtonGroup        |`...`\widgets\ToggleButtonGroup    |
+
+Examples:
+
+```php
+<?= digitv\bootstrap\widgets\Progress::widget(['percent' => 60, 'label' => 'Test label']) ?>
+```
+
+```php
+//Breadcrumbs in layout view
+<?= digitv\bootstrap\widgets\Breadcrumbs::widget([
+    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+]) ?>
+```
+
+```php
+<?php
+//Navbar in layout view
+    digitv\bootstrap\widgets\NavBar::begin([
+        'brandLabel' => Yii::$app->name,
+        'brandUrl' => Yii::$app->homeUrl,
+        'options' => [
+            'class' => 'navbar-dark bg-dark navbar-expand-lg fixed-top',
+        ],
+    ]);
+    $menuItems = [
+        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'Dropdown', 'url' => ['/site/index'], 'items' => [
+            ['label' => 'First', 'url' => ['/site/index']],
+            ['label' => 'Second', 'url' => '/'],
+        ]],
+        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'Contact', 'url' => ['/site/contact']],
+    ];
+    if (Yii::$app->user->isGuest) {
+        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+    } else {
+        $menuItems[] = '<li>'
+            . digitv\bootstrap\Html::beginForm(['/site/logout'], 'post')
+            . digitv\bootstrap\Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link logout']
+            )
+            . digitv\bootstrap\Html::endForm()
+            . '</li>';
+    }
+    echo digitv\bootstrap\widgets\Nav::widget([
+        'options' => ['class' => 'navbar-nav ml-auto'],
+        'items' => $menuItems,
+    ]);
+    digitv\bootstrap\widgets\NavBar::end();
+?>
+```
