@@ -1,8 +1,8 @@
 <?php
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
-use digitv\yii2bootstrap4\assets\BootstrapPluginAsset;
+use digitv\bootstrap\assets\BootstrapPluginAsset;
 use yii\helpers\Json;
 
 trait BootstrapWidgetTrait

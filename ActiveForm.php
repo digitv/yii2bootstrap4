@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -68,7 +68,7 @@ class ActiveForm extends \yii\widgets\ActiveForm
      * @var string the default field class name when calling [[field()]] to create a new field.
      * @see fieldConfig
      */
-    public $fieldClass = 'digitv\yii2bootstrap4\ActiveField';
+    public $fieldClass = 'digitv\bootstrap\ActiveField';
     /**
      * @var array HTML attributes for the form tag. Default is `[]`.
      */

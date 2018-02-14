@@ -5,7 +5,7 @@
  * Time: 10:47
  */
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
 
 class BaseHtml extends \yii\helpers\Html

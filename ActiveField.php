@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
 use yii\helpers\ArrayHelper;
 

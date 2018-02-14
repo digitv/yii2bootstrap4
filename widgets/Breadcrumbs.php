@@ -5,11 +5,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace digitv\yii2bootstrap4\widgets;
+namespace digitv\bootstrap\widgets;
 
 use Yii;
 use yii\base\InvalidConfigException;
-use digitv\yii2bootstrap4\Widget;
+use digitv\bootstrap\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

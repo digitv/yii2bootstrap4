@@ -1,6 +1,6 @@
 <?php
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
 
 class Widget extends \yii\base\Widget

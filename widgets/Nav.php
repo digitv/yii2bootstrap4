@@ -1,10 +1,10 @@
 <?php
 
-namespace digitv\yii2bootstrap4\widgets;
+namespace digitv\bootstrap\widgets;
 
-use digitv\yii2bootstrap4\assets\BootstrapAsset;
-use digitv\yii2bootstrap4\Html;
-use digitv\yii2bootstrap4\Widget;
+use digitv\bootstrap\assets\BootstrapAsset;
+use digitv\bootstrap\Html;
+use digitv\bootstrap\Widget;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -67,7 +67,7 @@ class Nav extends Widget
      * @var string name of a class to use for rendering dropdowns within this widget. Defaults to [[Dropdown]].
      * @since 2.0.7
      */
-    public $dropdownClass = 'digitv\yii2bootstrap4\widgets\Dropdown';
+    public $dropdownClass = 'digitv\bootstrap\widgets\Dropdown';
 
     /**
      * Initializes the widget.

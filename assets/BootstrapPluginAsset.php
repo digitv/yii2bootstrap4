@@ -1,12 +1,12 @@
 <?php
 
-namespace digitv\yii2bootstrap4\assets;
+namespace digitv\bootstrap\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapPluginAsset
- * @package digitv\yii2bootstrap4\assets
+ * @package digitv\bootstrap\assets
  */
 class BootstrapPluginAsset extends AssetBundle
 {

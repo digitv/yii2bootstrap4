@@ -12,9 +12,9 @@ It is using `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 
 Use it similarly to `yiisoft/yii2-bootstrap` package.
 
-|yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
+|yiisoft/yii2-bootstrap         |digitv/bootstrap                   |
 |-------------------------------|-----------------------------------|
-|`yiisoft\yii2-bootstrap`\Html  |`digitv\yii2bootstrap4`\Html       |
+|`yii\bootstrap`\Html           |`digitv\bootstrap`\Html       |
 |`...`\ActiveForm               |`...`\ActiveForm                   |
 |`...`\ActiveField              |`...`\ActiveField                  |
 |yii\widgets\Breadcrumbs        |`...`\widgets\Breadcrumbs          |

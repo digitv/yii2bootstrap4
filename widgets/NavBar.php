@@ -1,11 +1,11 @@
 <?php
 
-namespace digitv\yii2bootstrap4\widgets;
+namespace digitv\bootstrap\widgets;
 
 
-use digitv\yii2bootstrap4\assets\BootstrapPluginAsset;
-use digitv\yii2bootstrap4\Html;
-use digitv\yii2bootstrap4\Widget;
+use digitv\bootstrap\assets\BootstrapPluginAsset;
+use digitv\bootstrap\Html;
+use digitv\bootstrap\Widget;
 use Yii;
 use yii\helpers\ArrayHelper;
 

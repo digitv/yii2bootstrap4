@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace digitv\yii2bootstrap4;
+namespace digitv\bootstrap;
 
 /**
  * Html is an enhanced version of [[\yii\helpers\Html]] helper class dedicated to the Bootstrap needs.
