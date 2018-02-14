@@ -10,7 +10,7 @@ Those are ported and partially changed `yiisoft/yii2-bootstrap` widgets to use w
 
 It is using `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 
-Use it similarly as `yiisoft/yii2-bootstrap` package.
+Use it similarly to `yiisoft/yii2-bootstrap` package.
 
 |yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
 |-------------------------------|-----------------------------------|
