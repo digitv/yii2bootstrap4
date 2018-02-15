@@ -1,6 +1,6 @@
 {
     "name": "digitv/yii2bootstrap4",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Yii2 Bootstrap 4 widgets",
     "keywords": ["yii2", "bootstrap", "bootstrap 4", "yii2 bootstrap4", "yii2 bootstrap 4"],
     "type": "yii2-extension",
