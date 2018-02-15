@@ -11,7 +11,15 @@ use yii\web\AssetBundle;
 class BootstrapAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/twbs/bootstrap/dist/css';
-    public $css = [
-        'bootstrap.min.css',
-    ];
+    public $css = [];
+
+    /**
+     * @inheritdoc
+     */
+    public function init()
+    {
+        //Add css depending on user environment
+        $this->css[] = YII_ENV_DEV ? 'bootstrap.css' : 'bootstrap.min.css';
+        parent::init();
+    }
 }
