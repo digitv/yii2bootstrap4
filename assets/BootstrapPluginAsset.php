@@ -5,8 +5,10 @@ namespace digitv\bootstrap\assets;
 use yii\web\AssetBundle;
 
 /**
- * Class BootstrapPluginAsset
- * @package digitv\bootstrap\assets
+ * Asset bundle for Twitter Bootstrap v4 plugins javascript
+ *
+ * @link https://getbootstrap.com/docs/4.0/components
+ * @author Digit <digit.vova@gmail.com>
  */
 class BootstrapPluginAsset extends AssetBundle
 {

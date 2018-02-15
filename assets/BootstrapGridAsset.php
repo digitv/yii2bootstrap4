@@ -5,15 +5,16 @@ namespace digitv\bootstrap\assets;
 use yii\web\AssetBundle;
 
 /**
- * Asset bundle for Twitter Bootstrap v4 CSS
+ * Asset bundle for the Twitter bootstrap v4 grid.
  *
- * @link https://getbootstrap.com/docs/4.0/getting-started/introduction/
+ * @link http://getbootstrap.com/docs/4.0/layout/grid
  * @author Digit <digit.vova@gmail.com>
  */
-class BootstrapAsset extends AssetBundle
+class BootstrapGridAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/twbs/bootstrap/dist/css';
     public $css = [];
+    public $depends = [];
 
     /**
      * @inheritdoc
@@ -21,7 +22,7 @@ class BootstrapAsset extends AssetBundle
     public function init()
     {
         //Add css depending on user environment
-        $this->css[] = YII_ENV_DEV ? 'bootstrap.css' : 'bootstrap.min.css';
+        $this->css[] = YII_ENV_DEV ? 'bootstrap-grid.css' : 'bootstrap-grid.min.css';
         parent::init();
     }
 }
