@@ -12,6 +12,8 @@ It is using `twbs/bootstrap` package with Bootstrap v4 CSS/JS.
 
 Use it similarly to `yiisoft/yii2-bootstrap` package.
 
+> __Please feel free to create a issue / pull request if I forgot something or if you find some bugs.__
+
 |yiisoft/yii2-bootstrap         |digitv/yii2bootstrap4              |
 |-------------------------------|-----------------------------------|
 |`yii\bootstrap`\Html           |`digitv\bootstrap`\Html       |
