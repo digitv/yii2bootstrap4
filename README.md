@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://getbootstrap.com/" target="_blank">
-        <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" width="80px" height="80px">
+        <img src="https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" width="80px" height="80px">
     </a>
     <h1 align="center">Yii2 bootstrap widgets on Bootstrap 4</h1>
 </p>
