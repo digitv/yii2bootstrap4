@@ -21,13 +21,14 @@ use yii\helpers\ArrayHelper;
  * echo Carousel::widget([
  *     'items' => [
  *         // the item contains only the image
- *         '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg"/>',
+ *         '<img src="http://via.placeholder.com/1200x350"/>',
  *         // equivalent to the above
- *         ['content' => '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg"/>'],
+ *         ['content' => '<img src="http://via.placeholder.com/1200x350/A00"/>'],
  *         // the item contains both the image and the caption
  *         [
- *             'content' => '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg"/>',
+ *             'content' => 'http://via.placeholder.com/1200x350/0A0"/>',
  *             'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
+ *             'captionOptions' => ['class' => 'my-own-class'],
  *             'options' => [...],
  *         ],
  *     ]
@@ -156,7 +157,7 @@ class Carousel extends Widget
             if ($caption !== null) {
                 $captionOptions = ArrayHelper::getValue($item, 'captionOptions', []);
                 Html::addCssClass($captionOptions, ['widget' => 'carousel-caption']);
-                $caption = Html::tag('div', $caption, ['class' => $captionOptions]);
+                $caption = Html::tag('div', $caption, $captionOptions);
             }
             $options = ArrayHelper::getValue($item, 'options', []);
         } else {
